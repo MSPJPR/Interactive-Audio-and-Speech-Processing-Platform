@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Speech and Music Platform</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Speech and Music Signal Processing</h1>
+    </header>
+    <main>
+        <section id="upload-section">
+            <h2>Upload Audio</h2>
+            <input type="file" id="audio-upload" accept="audio/*">
+            <button id="process-audio">Process Audio</button>
+        </section>
+        <section id="output-section">
+            <h2>Results</h2>
+            <div id="visualization"></div>
+            <p id="results"></p>
+        </section>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
